@@ -13,9 +13,15 @@ galaxy_info:
   platforms:
   - name: Ubuntu
     versions:
-    - 16.04
+    - xenial
 
   galaxy_tags:
+    - development
+    - admin
+    - maintenance
+    - system
+    - database
+    - linux
     - mysql
 
 dependencies: []
