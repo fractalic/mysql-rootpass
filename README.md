@@ -35,7 +35,7 @@ Role Variables
 
 **defaults.yml**
 
-  * new_root_password: Set to empty-string by default
+  * mysql_rootpass_new: Set to empty-string by default
 
 **vars.yml**
 
@@ -51,7 +51,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: fractalic.mysql-rootpass, new_root_password: 'password' }
+         - { role: fractalic.mysql-rootpass, mysql_rootpass_new: 'password' }
 
 License
 -------

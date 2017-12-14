@@ -1,2 +1,2 @@
 ---
-# defaults file for mysql-reset-root-pass
+mysql_rootpass_new: ''
